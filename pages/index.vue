@@ -36,8 +36,10 @@ export default {
   },
   methods: {
     getImage(article) {
-      return article.urlToImage ? article.urlToImage : 'https://www.madrecor.com.br/wp-content/uploads/2016/10/orionthemes-placeholder-image.jpg';
-    }
-  }
+      return article.urlToImage
+        ? article.urlToImage
+        : "https://www.madrecor.com.br/wp-content/uploads/2016/10/orionthemes-placeholder-image.jpg";
+    },
+  },
 };
 </script>
